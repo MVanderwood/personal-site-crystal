@@ -1,0 +1,18 @@
+name: personal-site
+version: 0.1.0
+
+authors:
+  - MVanderwood <m.b.vanderwood@gmail.com>
+
+targets:
+  personal-site:
+    main: src/personal-site.cr
+
+crystal: 0.20.5
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
